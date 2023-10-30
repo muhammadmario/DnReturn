@@ -1,4 +1,4 @@
-<footer class="w-full overflow-x-hidden bg-zinc-900 py-8 px-5 md:px-0">
+<footer class="w-full overflow-x-hidden bg-zinc-900 py-8 px-5 md:xl-0">
     <div class="m-auto h-[20rem] max-w-screen-xl flex flex-col-reverse items-center justify-between gap-8 md:flex-row">
         <div class="h-full flex flex-col items-center justify-center gap-2">
             <img src="{{ asset('assets/images/dnr-logo.png') }}" class="w-[6rem]" alt="logo" />
