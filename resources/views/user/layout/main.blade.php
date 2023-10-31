@@ -7,9 +7,9 @@
     <title>Document</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="bg-zinc-800 flex flex-col items-center justify-center">
     @include('user.components.navbar')
-    <main class="container">
+    <main class="container flex flex-col pt-20">
         @yield('content')
     </main>
 
