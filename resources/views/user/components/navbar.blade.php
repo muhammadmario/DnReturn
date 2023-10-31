@@ -1,6 +1,6 @@
 
 <nav class="bg-zinc-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-5">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2">
         <div class="flex gap-10">
             <a href="/">
                 <img src="{{ asset('assets/images/logo.png') }}" class="h-12 object-contain" alt="Flowbite Logo">
