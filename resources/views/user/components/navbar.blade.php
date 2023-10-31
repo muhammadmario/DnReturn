@@ -1,6 +1,6 @@
 
-<nav class="bg-zinc-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 ">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-5">
+<nav class="bg-zinc-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-5">
         <div class="flex gap-10">
             <a href="/">
                 <img src="{{ asset('assets/images/logo.png') }}" class="h-12 object-contain" alt="Flowbite Logo">
@@ -9,7 +9,7 @@
             <div class="hidden lg:flex md:items-center md:justify-between md:w-full" id="navbar-sticky">
                 <ul class="flex p-4 md:p-0  font-mediumborder border-gray-100 rounded-lg space-x-1">
                   <li>
-                    <a href="/home" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-500 {{ (request()->is('/')) ? 'bg-red-800' : '' }} ">Home</a>
+                    <a href="/" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-500 {{ (request()->is('/')) ? 'bg-red-800' : '' }} ">Home</a>
                   </li>
                   <li>
                     <a href="/rank" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-500 {{ (request()->is('rank')) ? 'bg-red-800' : '' }}">Rank</a>
@@ -49,7 +49,7 @@
         <div class="flex items-center w-full lg:hidden">
             <ul id="mobileList" class="hidden flex-col w-full p-4 mt-4 font-medium rounded-lg">
               <li>
-                <a href="/home" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-500 {{ (request()->is('/')) ? 'bg-red-800' : '' }} ">Home</a>
+                <a href="/" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-500 {{ (request()->is('/')) ? 'bg-red-800' : '' }} ">Home</a>
               </li>
               <li>
                 <a href="/rank" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-500 {{ (request()->is('rank')) ? 'bg-red-800' : '' }}">Rank</a>
