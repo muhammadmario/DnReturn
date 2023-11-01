@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<header class="overflow-x-hidden h-[21rem] md:h-[19rem] flex flex-col items-center justify-center relative box-border bg-zinc-800">
+<header class="h-[21rem] md:h-[19rem] flex flex-col items-center justify-center relative box-border bg-zinc-800">
     <video
         class="h-full w-full max-w-screen-xl object-cover"
         autoplay
@@ -14,7 +14,7 @@
         playsinline
         <source src="{{ asset('assets/videos/intro.mp4') }}" type="video/mp4">
     </video>
-    <div class="h-full w-full max-w-screen-xl  absolute bg-transparent flex flex-col items-center justify-center backdrop-blur-sm">
+    <div class="px-5 h-full w-full max-w-screen-xl  absolute bg-transparent flex flex-col items-center justify-center backdrop-blur-sm">
         <a href="/">
             <img src="{{asset('assets/images/rdn-logo.png')}}" class="w-[8rem]" alt="logo" />
         </a>
@@ -96,7 +96,33 @@
         </div>
     </div>
 </div>
-<div id="section3"></div>
+
+
+<div id="section3">
+    <div class="px-5 flex flex-col items-center justify-center bg-zinc-800">
+        <div class="h-[25rem] w-full max-w-screen-xl relative box-border overflow-hidden">
+            <img src="{{asset('assets/images/Asset44.png')}}" class="h-full w-full object-cover" alt="img" />
+            <div class="absolute inset-0">
+                <div class="h-full w-full relative box-border">
+                    <img src="{{asset('assets/images/_1.png')}}" class="h-[20rem] object-cover absolute right-0 md:right-10 bottom-0" alt="img" />
+                    <div class="p-2 w-full md:w-[50%] bg-black/30 md:bg-transparent text-white absolute top-0 left-0 flex flex-col gap-2 rounded-sm">
+                        <h1 class="text-xl font-semibold">WARRIOR</h1>
+                        <p class="text-xs md:text-base">The Warrior is a specialist in physical melee combat. Quick and agile, the Warrior relies on fast-paced melee combos! The Warrior comes from Ironwood Forest. Legend has it that he was brought to the town as an infant by his mother under mysterious circumstances. Even as a young boy, he was always quick and strong. As he grew, he found himself easily outstripping his peers in the arts of war. In his heart though, he always longed for the truth of his birth and his lineage and now finds himself on a path of personal discovery.</p>
+                    </div>
+                    <div class="p-5 border w-full absolute bottom-0 flex items-center justify-center box-border gap-5">
+                        <div class="h-16 w-16 border box-border"></div>
+                        <div class="h-16 w-16 border box-border"></div>
+                        <div class="h-16 w-16 border box-border"></div>
+                        <div class="h-16 w-16 border box-border"></div>
+                        <div class="h-16 w-16 border box-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div id="section4" class="pt-5 px-0 md:pt-10 xl:px-5 w-full overflow-x-hidden flex flex-col items-center justify-center bg-zinc-800">
     <div class="p-5 w-full max-w-screen-xl flex flex-col items-center justify-normal gap-5 md:flex-row md:justify-between flex-wrap bg-white">
         <span class="mx-auto">
